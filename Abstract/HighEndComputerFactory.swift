@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Concrete computer factory
 class HighEndComputerFactory: ComputerFactory {
     override func chooseFinish() -> Finish? {
         return SpaceGray()

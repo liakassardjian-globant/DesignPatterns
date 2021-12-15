@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Concrete computer factory
 class OfficeComputerFactory: ComputerFactory {
     override func chooseFinish() -> Finish? {
         return Silver()

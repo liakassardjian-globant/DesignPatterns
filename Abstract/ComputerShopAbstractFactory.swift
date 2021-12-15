@@ -12,6 +12,7 @@ enum ComputerType {
     case highEnd
 }
 
+/// Abstract computer factory
 class ComputerFactory {
     func chooseFinish() -> Finish? {
         return nil
